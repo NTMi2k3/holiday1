@@ -1,0 +1,133 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --main-color: rgba(63,208,212);
+    --main-color-rgpa: rgba(63,208,212,0.9)
+}
+
+* {
+    box-sizing: inherit; /* ke thua the chua no */ 
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    /* nho hon 1200 kich thuoc 100% */
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    /* nam tren hang ngang,vuot qua grid__row thi nhay xuong */
+}
+@keyframes headerNotyGrowth {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+/* Form */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* display: flex; */
+    animation: fadeIn linear 0.2s;
+    display: none;
+    z-index: 2;
+}
+.modal_overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+}
+.main{
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    --growth-from: 0.7;
+    --growth-to: 1;
+    animation: growth linear 0.1s;
+}
+
+/* hàng cột */
+.row{
+    
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.col{
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.c-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-full{
+    width: 100%;
+}
+.col-third{
+    width: calc(100%/3);
+}
+.col-half{
+    width: 50%;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+.mt-32{
+    margin-top: 32px !important;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    min-width: 44px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 700;
+}

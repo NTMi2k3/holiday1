@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du lịch</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg7Ns6Y6ioCF7Fr9gDWVWjYIfGC6xPPpK3mw&usqp=CAU" type="image/x-icon" />
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/grid.css">   
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="./assests/css/main.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+                <div class="header__width-search">
+
+                    <div class="header__logo">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assests/img/logo-color.png" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input">
+                            <input type="text" class="header__search-input-blank" placeholder="Nhập để tìm kiếm">
+
+                            <div class="header__search-history">
+                                <h3 class="header__search-his-head">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-his-list">
+                                    <li class="header__search-list-item">
+                                        <a href="">Đảo Cát Bà</a>     
+                                    </li>
+                                    <li class="header__search-list-item">
+                                        <a href="">Đảo Cát Bà</a>
+                                    </li>
+                                </ul>
+                            </div> 
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="" class="header__list-item-link">
+                                <div class="tb">
+                                    <i class="header__list-icon fa-solid fa-bell"></i>
+                                    <span class="header___bell-notice">3</span>
+                                </div>
+                                <span class="bell__name">Thông báo</span>
+                            </a>
+                            
+                            <div class="header__notify">
+                                <h3 class="header__notify-head">Thông báo mới nhận</h3>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link header__notify-item-viewed">
+                                            <img src="./assests/img/Notify/anh1.jpg" alt="" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-name">Cầu Vàng-Đà Nẵng</span>
+                                                <div class="header__notify-item-description">Chạm để xem chi tiết</div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="header__notify-link ">
+                                            <img src="./assests/img/Notify/anh2.jpg" alt="" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-name">Cầu Vàng-Đà Nẵng</span>
+                                                <div class="header__notify-item-description">Chạm để xem chi tiết</div>
+                                            </div>
+                                        </a>
+                                        <a href="" class="header__notify-link ">
+                                            <img src="./assests/img/Notify/anh3.jpg" alt="" class="header__notify-item-img">
+                                            <div class="header__notify-item-info">
+                                                <span class="header__notify-item-name">Cầu Vàng-Đà Nẵng</span>
+                                                <div class="header__notify-item-description">Chạm để xem chi tiết</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footerbtn">
+                                        Xem tat ca
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__list-item  btn__open-regist header__list-item-separate">Đăng kí</li>
+                        <li class="header__list-item btn__open-login ">Đăng nhập</li>
+                    </ul>
+
+                </div> 
+        </header>
+        <div class="slider">
+            <div class="slider__imgs">
+                <div class="slider__img slider1">
+                    <div class="slider__img-text">
+                        <h3>Hà Nội</h3>
+                        <p>Hãy bắt đầu hành trình khám phá với chúng tôi và tạo ra những kỷ niệm vô giá trong lòng bạn.</p>
+                    </div>
+                </div>
+                <div class="slider__img slider2">
+                    <div class="slider__img-text">
+                        <h3>Đà Nẵng</h3>
+                        <p>Hãy bắt đầu hành trình khám phá với chúng tôi và tạo ra những kỷ niệm vô giá trong lòng bạn.</p>
+                    </div>
+                </div>
+                <div class="slider__img slider3">
+                    <div class="slider__img-text">
+                        <h3>Hải Phòng</h3>
+                        <p>Hãy bắt đầu hành trình khám phá với chúng tôi và tạo ra những kỷ niệm vô giá trong lòng bạn.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__btn">
+                <span onclick="show_slide(1)"></span>
+                <span onclick="show_slide(2)"></span>
+                <span onclick="show_slide(3)"></span>
+            </div>
+            <div class="slider__select">
+                <ul class="slider__select-nav">
+                    <li>
+                        <a href="#">
+                            Chọn lịch trình
+                            <i class="select_icon fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="#">Thứ 2</a></li>
+                            <li><a href="#">Thứ 3</a></li>
+                            <li><a href="#">Thứ 4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Chọn điểm đến
+                            <i class="select_icon fa-solid fa-angle-down"></i>
+                        </a>
+                        <ul class="subnav">
+                            <li><a href="#">Đà Nẵng</a></li>
+                            <li><a href="#">Hà Nội</a></li>
+                            <li><a href="#">TP.Hồ Chí Minh</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Tìm kiếm ngay</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="body">
+            <div class="top__destination">
+                <div class="top__des-header">
+                    <h3>Top Destination</h3>
+                    <p>Hãy bắt đầu hành trình khám phá với chúng tôi</p>
+                </div>
+                <div class="row top__des-imgs">
+                    <div class="row top__des-img">
+                        <!-- <div class="col form-reiceve">
+                            <div class="render__cmn">
+                                <div class="creat__img">
+                                   <img class="card__img" src="./assests/img/Notify/a2.jpg" alt="">
+                                    <ul>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                    </ul>
+                               </div>
+                               <div class="top__des-create-info">
+                                   <h2>Đà Nẵng</h2>
+                                   <p>Hãy bắt đầu hành trình khám phá với chúng tôi và tạo ra những kỷ niệm vô giá trong lòng bạn.</p>
+                                   
+                                   <button class="form-submit1" name="form-submit">Xoá</button>
+                               </div> 
+                           </div>
+                        </div> -->                      
+                       
+                    </div>
+
+                    <div class="col top__des-create">
+                        <div class="form-create">
+                            <div class="creat__img">
+                                <img class="card__img" src="./assests/img/Notify/a2.jpg" alt="">
+                                <input type="url" class="create__img-input" name="url" placeholder="URL image">
+                            </div>
+                            <div class="top__des-create-info">
+                                <input type="text" class="create__title" name="title" placeholder="Title">
+                                <input type="text" class="create__content" name="description" placeholder="Content">
+                                <button class="form-submitt" name="form-submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>  
+            </div>
+
+            <div class="top__destination">
+                <div class="top__des-header">
+                    <h3>Our Feature Tour</h3>
+                    <p>Hãy bắt đầu hành trình khám phá với chúng tôi</p>
+                </div>
+                <div class="btn-tour-wrap">
+                    <button href="#" class="btn btn-tour-menu active" data-type="all">All Tour</button>
+                    <button href="#" class="btn btn-tour-menu" data-type="newTour">New Tour</button>
+                </div>
+                <div class="row top__des-imgs1">             
+                    <!-- <div class="col des-imgItem ">
+                        <div class="img1-link">
+                            <img src="./assests/img/Notify/a1.jpg" alt="anh1">
+                            <div class="desInfo-imgText">
+                                <div class="address-tour">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Cửa Lò,Nghệ An
+                                    <a href="#">More information-></a>
+                                </div>
+                               
+                                <ul>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                </ul>
+                                <div class="desInfo-footer">
+                                    <div class="infoMoney">
+                                        From 100<i class="fa-solid fa-dollar-sign"></i>
+                                    </div>
+                                    <div class="infoTime">
+                                        <i class="fa-regular fa-clock"></i>
+                                        10hours
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                   </div> -->
+
+                </div>  
+            </div>
+        </div>
+        <div class="footer">
+            <div class="content-footer">
+                <div class="col1-3">
+                    <h4>Company</h4>
+                    <ul>
+                        <li>About us</li>
+                        <li>Community Blog</li>
+                        <li>Careers</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+                <div class="col1-3">
+                    <h4>Connect With Us</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>                           
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>                           
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>
+                                Youtube
+                            </a>                          
+                        </li>
+                    </ul>
+                </div>
+                <div class="col1-3">
+                    <h4>For More Infomation</h4>
+                    <div class="custom-info">
+                        <input type="text" placeholder="Email">
+                        <button>Subcribe</button>
+                    </div>                  
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <h2>© Copyright 2023 by Me</h2>
+                <button><i class="fa-solid fa-chevron-up"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal_overlay"></div>
+        <div class="main">
+            <form action="" method="POST" class="form" id="form-1">
+                <div class="form-close js-modal-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="form-header">
+                    <div class="header__dn line-login">
+                        <h3 class="heading__login">Đăng nhập</h3>
+                    </div>
+                    <div class="header__dn line-register">
+                        <h3 class="heading__register ">Đăng kí</h3>
+                    </div>
+                </div>
+
+                <div class="spacer"></div>
+                
+                <div class="form-group">
+                    <label for="fullname" class="form-label">FullName</label>
+                    <input id="fullname" name="fullname"  type="text"  placeholder="VD: Nguyen Van A" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" name="email"  type="text"  placeholder="email@domain.com" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input id="password" name="password"  type="password" placeholder="******" class="form-control">
+                    <span class="form-message"></span>
+                </div>
+
+                <button class="form-submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assests/js/main.js"></script>
+    <script src="./assests/js/validator1.js"></script>
+    
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+        Validator({
+            form: '#form-1',
+            formGroup: '.form-group',
+            errorSelector: '.form-message',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isRequired('#email'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#password'),
+                Validator.minLength('#password',6)
+            ],
+            onsubmit: function(){
+                alert('Khong sao ma')
+                $('.modal').classList.remove('open')
+            }
+        })
+    </script>
+</body>
+</html>
