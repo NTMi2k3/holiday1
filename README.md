@@ -1,2 +1,2 @@
 My first project. It is created by html, css, javarscript  
-Link: https://mihtluv.github.io/holiday1/
+Link: https://ntmi2k3.github.io/holiday1/
